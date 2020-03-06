@@ -12,8 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 # Problem 1: Summarize the Iris dataset 
 
 ```{r}
+library(datasets)
 str(iris)
-#summary()
+#summary(iris)
 ```
 
 # Problem 2:
